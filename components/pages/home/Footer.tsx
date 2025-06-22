@@ -20,7 +20,7 @@ function Footer() {
                 </Link>
               </p>
               <p className="flex items-center gap-2">
-                <Link href={`mailto:patrikaprinters@gmail.com`} className="flex items-center gap-2">
+                <Link href={`mailto:vinitboradofficial@gmail.com`} className="flex items-center gap-2">
                   <Mail className="h-5 w-5" />
                   <span>vinitboradofficial@gmail.com</span>
                 </Link>
