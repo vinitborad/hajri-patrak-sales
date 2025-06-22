@@ -22,7 +22,7 @@ function Footer() {
               <p className="flex items-center gap-2">
                 <Link href={`mailto:patrikaprinters@gmail.com`} className="flex items-center gap-2">
                   <Mail className="h-5 w-5" />
-                  <span>patrikaprinters@gmail.com</span>
+                  <span>vinitboradofficial@gmail.com</span>
                 </Link>
               </p>
             </div>
@@ -31,14 +31,14 @@ function Footer() {
             <h3 className="text-xl font-bold mb-4">Legal</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-gray-400 hover:text-white transition-colors">
+                <p className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Terms & Conditions
-                </Link>
+                </p>
               </li>
               <li>
-                <Link href="/" className="text-gray-400 hover:text-white transition-colors">
+                <p className="text-gray-400 hover:text-white transition-colors cursor-pointer">
                   Privacy Policy
-                </Link>
+                </p>
               </li>
             </ul>
           </div>

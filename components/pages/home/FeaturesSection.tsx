@@ -1,24 +1,23 @@
 import React from 'react'
 
 const features = [
-  "Real-time attendance tracking and marking",
-  "Automated attendance reports and analytics",
+  "QR code-based attendance marking for quick and efficient check-ins",
+  "Robust marking system with dynamic QR codes, location tracking, and device level authentication",
+  "Detailed attendance reports and analytics",
   "Multi-role access for Students, Teachers, Parents, and Admins",
-  "Mobile app for easy attendance marking",
-  "SMS and email notifications for parents",
-  "Biometric integration support",
-  "Cloud-based secure data storage",
+  "User-friendly mobile application",
+  "Instant SMS and email notifications for parents",
   "Customizable attendance policies",
-  "Export attendance data in multiple formats",
-  "Integration with existing college management systems",
+  "Easy export of attendance data to Google Sheets",
+  "Super affordable pricing with a free trial available!",
 ]
 
 function FeaturesSection() {
   return (
     <section className="container mx-auto px-4 py-16 rounded-4xl bg-slate-50">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto px-4">
         <h2 className="text-4xl font-bold mb-12 flex items-center">
-          Features
+          Features of Hajri Patrak system
         </h2>
         <div className="space-y-4">
           {features.map((feature, index) => (
