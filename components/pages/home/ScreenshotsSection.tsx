@@ -93,13 +93,13 @@ const featureScreenshots = {
     "https://wdvsvsxrxsdcmotpbloz.supabase.co/storage/v1/object/public/cdn/faculty/IMG_20250622_113709.jpg",
     "https://wdvsvsxrxsdcmotpbloz.supabase.co/storage/v1/object/public/cdn/faculty/Screenshot_2025_06_22_11_19_05_593_com_vinitborad_hajripatrakapp.jpg"
   ],
-  Parents: [
-    "https://wdvsvsxrxsdcmotpbloz.supabase.co/storage/v1/object/public/cdn//Screenshot_2025_06_22_11_15_57_817_com_vinitborad_hajripatrakapp.jpg",
-    "https://wdvsvsxrxsdcmotpbloz.supabase.co/storage/v1/object/public/cdn//Screenshot_2025_06_22_11_16_14_966_com_vinitborad_hajripatrakapp.jpg",
-    "https://wdvsvsxrxsdcmotpbloz.supabase.co/storage/v1/object/public/cdn//Screenshot_2025_06_22_11_16_27_154_com_vinitborad_hajripatrakapp.jpg",
-    "https://wdvsvsxrxsdcmotpbloz.supabase.co/storage/v1/object/public/cdn//Screenshot_2025_06_22_11_16_29_479_com_vinitborad_hajripatrakapp.jpg",
-    "https://wdvsvsxrxsdcmotpbloz.supabase.co/storage/v1/object/public/cdn//Screenshot_2025_06_22_11_16_32_156_com_vinitborad_hajripatrakapp.jpg"
-  ],
+  // Parents: [
+  //   "https://wdvsvsxrxsdcmotpbloz.supabase.co/storage/v1/object/public/cdn//Screenshot_2025_06_22_11_15_57_817_com_vinitborad_hajripatrakapp.jpg",
+  //   "https://wdvsvsxrxsdcmotpbloz.supabase.co/storage/v1/object/public/cdn//Screenshot_2025_06_22_11_16_14_966_com_vinitborad_hajripatrakapp.jpg",
+  //   "https://wdvsvsxrxsdcmotpbloz.supabase.co/storage/v1/object/public/cdn//Screenshot_2025_06_22_11_16_27_154_com_vinitborad_hajripatrakapp.jpg",
+  //   "https://wdvsvsxrxsdcmotpbloz.supabase.co/storage/v1/object/public/cdn//Screenshot_2025_06_22_11_16_29_479_com_vinitborad_hajripatrakapp.jpg",
+  //   "https://wdvsvsxrxsdcmotpbloz.supabase.co/storage/v1/object/public/cdn//Screenshot_2025_06_22_11_16_32_156_com_vinitborad_hajripatrakapp.jpg"
+  // ],
   Admin: [
     "https://wdvsvsxrxsdcmotpbloz.supabase.co/storage/v1/object/public/cdn/admin/Screenshot_2025_06_22_11_52_12_083_com_vinitborad_hajripatrakapp.jpg",
     "https://wdvsvsxrxsdcmotpbloz.supabase.co/storage/v1/object/public/cdn/admin/Screenshot_2025_06_22_11_52_15_027_com_vinitborad_hajripatrakapp.jpg",
