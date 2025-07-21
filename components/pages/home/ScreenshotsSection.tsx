@@ -144,7 +144,7 @@ function ScreenshotsSection() {
             alt={`Screenshot ${index + 1}`}
             width={200}
             height={400}
-            className="rounded-lg shadow-lg"
+            className="rounded-lg shadow-lg h-96 w-auto object-contain"
           />
         </div>
       ))}
@@ -186,9 +186,9 @@ function ScreenshotsSection() {
                   <Image
                     src={screenshot || "/placeholder.svg"}
                     alt={`Screenshot ${index + 1}`}
-                    width={0}
-                    height={0}
-                    sizes="100vw"
+                    width={200}
+                    height={400}
+                    sizes="200px"
                     className="rounded-lg shadow-lg h-96 w-auto object-contain"
                   />
                 </div>
@@ -221,15 +221,15 @@ function ScreenshotsSection() {
                 <div
                   key={index}
                   className="flex-shrink-0 cursor-pointer hover:scale-105 transition-transform"
-                // onClick={() => setFullscreenImage(screenshot)}
+                  onClick={() => setFullscreenImage(screenshot)}
                 >
                   <Image
                     src={screenshot || "/placeholder.svg"}
                     alt={`Screenshot ${index + 1}`}
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    className="rounded-lg shadow-lg h-96 w-auto object-contain"
+                    width={200}
+                    height={400}
+                    sizes="200px"
+                    className="rounded-lg shadow-lg h-64 w-auto object-contain"
                   />
                 </div>
               ))}
@@ -279,6 +279,7 @@ function ScreenshotsSection() {
                 alt="Fullscreen view"
                 width={800}
                 height={1200}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 70vw"
                 className="w-full h-auto max-h-[85vh] object-contain"
               />
             )}
